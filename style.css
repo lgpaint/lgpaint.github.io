@@ -1,0 +1,102 @@
+body {
+    background-image: url("peach.jpg");
+}
+
+#page {
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+
+#title {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 900px;
+    color: #b84a3a;
+    font-size: 50px;
+}
+
+#photo {
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+#photo img {
+    width: 700px;
+}
+
+#intro {
+    position: absolute;
+    top: 570px;
+    left: 0px;
+    width: 700px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #b84a3a;
+}
+
+#artbox, #culturebox, #foodbox {
+    position: absolute;
+    top: 710px;
+    width: 200px;
+    height: 220px;
+    padding: 15px;
+    background-color: #fff4ec;
+    border: 2px solid #e68a4e;
+}
+
+#artbox {
+    left: 0px;
+}
+
+#culturebox {
+    left: 240px;
+}
+
+#foodbox {
+    left: 480px;
+}
+
+#artbox h3, #culturebox h3, #foodbox h3 {
+    color: #e06c2f;
+    font-size: 26px;
+    margin-top: 0px;
+}
+
+#artbox p, #culturebox p, #foodbox p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: #7a4a2d;
+}
+#buttons {
+    position: absolute;
+    top: 1000px;   /* move this up/down if needed */
+    left: 0px;
+    width: 1000px;
+}
+
+/* buttons side-by-side */
+#buttons a {
+    display: inline-block;
+    width: 150px;
+    padding: 15px;
+    margin-right: 70px;
+
+    background-color: #ff9a5a;
+    color: white;
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+
+    border: 2px solid #ff9a5a;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+#buttons a:hover {
+    background-color: white;
+    color: #ff9a5a;
+}
